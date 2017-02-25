@@ -1,26 +1,59 @@
+let faker= require("faker");
+
+
 module.exports={
-	citation:{
-		auteur:"Stephane",
-		citation:"rha mais la dès le matin tu vois, faut que je me chauffe pour des betises"
+	carte:{
+		persona:faker.name.findName(),
+		photo:faker.image.avatar(),
+		address:faker.address.streetAddress(),
+		city:faker.address.city(),
+		states:faker.address.state(),
+		phone:faker.phone.phoneNumber(),
+		mail:faker.internet.email()
 	},
-	citation2:{
-		auteur:"Loic",
-		citation:"5 fruits et legumes par jour"
+	carte2:{
+		persona:faker.name.findName(),
+		photo:faker.image.avatar(),
+		address:faker.address.streetAddress(),
+		city:faker.address.city(),
+		states:faker.address.state(),
+		phone:faker.phone.phoneNumber(),
+		mail:faker.internet.email()
 	},
-	citation3:{
-		auteur:"Mike",
-		citation:"une citation? heu attends ya la crepe"
+	carte3:{
+		persona:faker.name.findName(),
+		photo:faker.image.avatar(),
+		address:faker.address.streetAddress(),
+		city:faker.address.city(),
+		states:faker.address.state(),
+		phone:faker.phone.phoneNumber(),
+		mail:faker.internet.email()
 	},
-	citation4:{
-		auteur:"Rodolphe",
-		citation:"qui s'y frotte s'y pique"
+	carte4:{
+		persona:faker.name.findName(),
+		photo:faker.image.avatar(),
+		address:faker.address.streetAddress(),
+		city:faker.address.city(),
+		states:faker.address.state(),
+		phone:faker.phone.phoneNumber(),
+		mail:faker.internet.email()
 	},
-	citation5:{
-		auteur:"Pira",
-		citation:"tout ce que je sais c'est que je sais rien"
+	carte5:{
+		persona:faker.name.findName(),
+		photo:faker.image.avatar(),
+		address:faker.address.streetAddress(),
+		city:faker.address.city(),
+		states:faker.address.state(),
+		phone:faker.phone.phoneNumber(),
+		mail:faker.internet.email()
 	},
-	citation6:{
-		auteur:"Larisa",
-		citation:"da-i bataie! (vous avez compris?)"
+	carte6:{
+		persona:faker.name.findName(),
+		photo:faker.image.avatar(),
+		address:faker.address.streetAddress(),
+		city:faker.address.city(),
+		states:faker.address.state(),
+		phone:faker.phone.phoneNumber(),
+		mail:faker.internet.email()
 	}
 };

@@ -1,0 +1,29 @@
+.content{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.wrapper{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	width:300px;
+	height:600px;
+	background-color:#A10004;
+	border:7px solid #F9B03D;
+	border-radius:10px;
+	text-align:center;
+}
+h1{
+	color:#F9B03D;
+}
+
+button{
+	margin-left: 50px;
+	width:100px;
+	height:5vh;
+	border:1px solid #A10004;
+	border-radius:10px;
+	background-color:#F9B03D;
+}

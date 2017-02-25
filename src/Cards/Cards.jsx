@@ -1,5 +1,7 @@
 import React from "react";
 import talk from "./talk.js";
+import "./cards.css";
+import back from "./../../public/back.png";
 
 class Cards extends React.Component{
 	
@@ -25,10 +27,27 @@ class Cards extends React.Component{
 		
 
 		return(
-			<div className="Content">
-				<h1>{this.state.citation}</h1>
-				<span>{this.state.auteur}</span>
-				<button onClick={event=>this.genererCartes(event)}>autre Cartes</button>
+			<div className="content">
+
+				<h1> The FakerClow Cards </h1>
+				<div className="back">
+					<img src={back} alt="back"/>
+				</div>
+					<div className="wrapper">
+						<img src={this.state.photo}/>
+						<br/>
+						<h1>{this.state.persona}</h1>
+						<h3>{this.state.address}
+							<br/>
+							{this.state.city}</h3>
+						<h4>{this.state.states}</h4>
+						
+						<span>{this.state.phone}
+							<br/>
+							{this.state.mail}
+						</span>
+					</div>
+				<button onClick={event=>this.genererCartes(event)}>Autres Cartes</button>
 			</div>
 			)
 	}
