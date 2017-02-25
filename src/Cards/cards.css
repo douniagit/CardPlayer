@@ -1,4 +1,8 @@
 .content{
+	background-image:url("http://pre05.deviantart.net/8bba/th/pre/f/2009/185/4/d/magical_circles_by_entereri.jpg");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
 	display:flex;
 	justify-content: center;
 	align-items: center;
@@ -8,8 +12,8 @@
 	flex-direction:column;
 	justify-content: center;
 	align-items: center;
-	width:300px;
-	height:600px;
+	width:260px;
+	height:560px;
 	background-color:#A10004;
 	border:7px solid #F9B03D;
 	border-radius:10px;
@@ -18,7 +22,12 @@
 h1{
 	color:#F9B03D;
 }
-
+p{
+	text-align: center;
+	font-size:60px;
+	color:#F9B03D;
+	background-color: rgba(16,0,4,0.6);
+}
 button{
 	margin-left: 50px;
 	width:100px;
@@ -26,4 +35,14 @@ button{
 	border:1px solid #A10004;
 	border-radius:10px;
 	background-color:#F9B03D;
+	font-weight: bold;
+	color:#A10004;
+}
+.f{
+	width:314px;
+	height:614px;
+}
+button:hover{
+	background-color:#A10004;
+	color:#F9B03D;
 }

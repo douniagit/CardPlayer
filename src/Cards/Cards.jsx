@@ -29,9 +29,10 @@ class Cards extends React.Component{
 		return(
 			<div className="content">
 
-				<h1> The FakerClow Cards </h1>
+				<p> The FakerClow<br/> Cards </p>
+				
 				<div className="back">
-					<img src={back} alt="back"/>
+					<img className="f" src={back} alt="back"/>
 				</div>
 					<div className="wrapper">
 						<img src={this.state.photo}/>
