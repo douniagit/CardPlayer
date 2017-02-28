@@ -30,11 +30,11 @@ class Cards extends React.Component{
 			<div className="content">
 
 				<p> The FakerClow<br/> Cards </p>
-				
+			<div className="flip">
 				<div className="back">
 					<img className="f" src={back} alt="back"/>
 				</div>
-					<div className="wrapper">
+					<div className="front">
 						<img src={this.state.photo}/>
 						<br/>
 						<h1>{this.state.persona}</h1>
@@ -48,6 +48,7 @@ class Cards extends React.Component{
 							{this.state.mail}
 						</span>
 					</div>
+				</div>
 				<button onClick={event=>this.genererCartes(event)}>Autres Cartes</button>
 			</div>
 			)
